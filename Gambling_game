@@ -59,7 +59,7 @@ while True:
                                        gambleamt = int(input("\nEnter amount of money you want to gamble: "))
                                        if gambleamt > balance:
                                             print("Insufficient balance.")
-                                            continue
+                                            break
                                        if(gambleamt>500):
                                             print("Invalid!, remember the rule: you cant gamble more than $500/gamble")
                                             continue
